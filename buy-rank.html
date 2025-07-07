@@ -77,9 +77,10 @@
 
       <label>Choose Rank:</label>
       <select name="rank">
-        <option>VIP</option>
-        <option>Diamond</option>
-        <option>Legend</option>
+        <option>EXPLORER</option>
+        <option>WARRIOR</option>
+        <option>CHAMPION</option>
+        <option>LEGEND</option>
       </select>
 
       <label>Payment Method:</label>
@@ -175,7 +176,7 @@
         content: `🧍 **Username:** ${username}\n🏷️ **Rank:** ${rank}\n💸 **Payment:** ${payment}\n🎮 **Discord:** ${discord}`
       }));
 
-      const webhookURL = "YOUR_DISCORD_WEBHOOK_URL"; // Replace this
+      const webhookURL = "https://discord.com/api/webhooks/1391750735640789002/xmcBaVoaminabVDpyndkX8PsUDc9SzEa8m6xmN5KqnKr-T6eNAZbAx_854HemB6MNmLQ"; // Replace this
 
       await fetch(webhookURL, {
         method: "POST",
